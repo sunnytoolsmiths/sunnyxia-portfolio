@@ -143,21 +143,21 @@ article {
 }
 
 .small-image {
-    width: 49%;
+    width: 100%;
     height: 300px;
     background-image: url("../images/tanzu.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: flex-end;
-
     padding-bottom: 20px;
 }
 
 .small-image .text-content {
     background: #0066ff;
     padding: 20px;
-    width: 20%;
+    width: 40%;
+    white-space: nowrap;
 }
 
 .small-image .text-content h3,h6 {
@@ -212,4 +212,15 @@ h3 {
 
 .footer h2 {
     font-size: 20px;
+}
+
+.aTagWidth {
+    width: 100%;
+    right: 0;
+    float: right;
+    padding: 10px;
+}
+
+.style {
+    padding: 10px;
 }
